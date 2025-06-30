@@ -8,7 +8,7 @@ class OneSignalService {
         this.mobileAppId = process.env.ONESIGNAL_MOBILE_APP_ID;
 
         if (!this.restApiKey || !this.webAppId || !this.mobileAppId) {
-            console.warn('⚠️  OneSignal credentials not configured properly');
+            console.warn('OneSignal credentials not configured properly');
         }
     }
 
